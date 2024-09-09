@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(pexels-lumn-167706.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin: 14% 40%;
+}
+.container h1{
+    color: white;
+    font-family: "Kalam", cursive;
+    border-bottom: 4px solid #4e974e;
+}
+.box{
+    padding: 11px 25px;
+}
+.box input{
+   background: none;
+   color: white;
+   outline: none;
+   font-size: 20px;
+   width: 80%;
+   border: none;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 12px 12px;
+    border-radius: 5px;
+    border: 2px solid #4e974e;
+    padding: 5px 15px;
+}
